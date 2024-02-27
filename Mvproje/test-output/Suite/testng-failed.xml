@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="General(failed)">
+    <classes>
+      <class name="opack.P1">
+        <methods>
+          <include name="methodA"/>
+        </methods>
+      </class> <!-- opack.P1 -->
+      <class name="opack.P3">
+        <methods>
+          <include name="methodA"/>
+        </methods>
+      </class> <!-- opack.P3 -->
+      <class name="opack.P6">
+        <methods>
+          <include name="methodA"/>
+        </methods>
+      </class> <!-- opack.P6 -->
+      <class name="opack.P2">
+        <methods>
+          <include name="methodA"/>
+        </methods>
+      </class> <!-- opack.P2 -->
+      <class name="opack.P4">
+        <methods>
+          <include name="Automation"/>
+        </methods>
+      </class> <!-- opack.P4 -->
+    </classes>
+  </test> <!-- General(failed) -->
+</suite> <!-- Failed suite [Suite] -->

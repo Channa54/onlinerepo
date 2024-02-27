@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- 
+	<test thread-count="5" name="General">
+		<classes>
+
+			<class name="opack.P8" />
+			<class name="opack.P5" />
+			<class name="opack.P4" />
+			<class name="opack.P7" />
+			<class name="opack.P6" />
+			<class name="opack.P1" />
+
+			<class name="opack.P3" />
+			<class name="opack.P2" />
+		</classes>
+	</test> 
+
+	-->
+	<test thread-count="5" name="Demo">
+		<classes>
+			<class name="apack.Classone" />
+			<class name="bpack.Classtwo" />
+			<class name="cpack.Classthree" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

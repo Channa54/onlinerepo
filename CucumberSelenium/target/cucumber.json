@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-26T09:43:44.805Z",
+        "line": 3,
+        "name": "positive registration",
+        "description": "",
+        "id": "registration-feature;positive-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 2631000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdef.Login.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\CADEPPA\\eclipse-workspace\\CucumberSelenium\\drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdef.Registration.user_is_on_signin_page(Registration.java:20)\r\n\tat ✽.user is on signin page(file:///C:/Users/CADEPPA/eclipse-workspace/CucumberSelenium/Feature/Registration.feature:4)\r\n",
+              "duration": 42999600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on signin page",
+            "match": {
+              "location": "stepdef.Registration.user_is_on_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "enters credentials",
+            "match": {
+              "location": "stepdef.Registration.enters_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "channu nagwar"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "channabasav23nag@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "8888899999"
+                ]
+              },
+              {
+                "cells": [
+                  "pass",
+                  "vsjsjh@335"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on continue btn",
+            "match": {
+              "location": "stepdef.Registration.user_clicks_on_continue_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepdef.Login.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "registration Feature",
+    "description": "",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "file:Feature/Registration.feature",
+    "tags": [
+      {
+        "name": "@tag1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

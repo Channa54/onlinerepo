@@ -1,0 +1,25 @@
+
+public class Program13 {
+
+	
+	// constructors are used for the intialization of the variables//
+	String Name;
+	int Milage;
+	
+	
+	public Program13(String name , int milage) {
+	Name =name ;
+	Milage=milage;
+	}
+	
+	public void cardetails() {
+	
+		System.out.println("milage of the car is "+ Milage);
+		
+	}
+	
+	
+	
+	
+	
+}
